@@ -198,5 +198,38 @@ textarea::placeholder{
     cursor: pointer;   
     
 }
- 
- 
+/* footer section design  */
+ .foot{
+    width: 1440px;
+    height: 428px;
+    background-color: oklab(95.44399999999999% 0.00308 0.00085 / 0.822);
+    margin: 0 auto;
+    
+    
+    
+ }
+ .foot-link ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    
+ }
+ .foot-logo{
+    justify-content: center;
+    display: block;
+    align-items: center;
+    text-align: center;
+ }
+ .foot-logo h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding-top: 50px;
+ }
+ a{
+    text-decoration: none;
+ }
+ .foot-logo p{
+    color:#8987A1;
+ }
