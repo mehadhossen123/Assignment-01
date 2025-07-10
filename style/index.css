@@ -68,3 +68,40 @@
 #action-img{
      border-radius: 48px;
 }
+
+/* Action desing part */
+.centered-title{
+    width: 1140px;
+    height: 306px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+   padding: 40px;
+    margin-top: 116px;
+    border-radius: 48px;
+}
+.centere {
+    display: flex;
+    justify-content:space-around;
+
+    
+    
+
+}
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    
+    }
+    .data{
+        font-weight: bold;
+        font-size: 80px;
+        color: #4E47FF;
+    }
+    .sub-title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+ 
