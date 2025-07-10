@@ -26,6 +26,11 @@
     font-weight: bold;
 
 }
+#button:hover{
+   background-color: brown;
+}
+    
+
 #button{
     
     border-radius: 5px;
@@ -34,6 +39,7 @@
    background-color: #4E47FF;
    color: white;
    font-size: 24px;
+   cursor: pointer;
 }
 .head-title{
     display: inline-block;
@@ -103,5 +109,94 @@
         align-items: center;
         flex-direction: column;
     }
+
+
+    /* Touch design  */
+    .touch{
+        width: 1140px;
+        height: 632px;
+        margin: 0 auto;
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        
+        align-items: center;
+        
+
+    }
+    .touch-section{
+        display: block;
+    }
+    form  input[type="email"]{
+        height: 70px;
+    border-radius: 5px;
+     
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px; 
+    display: block;
+    border: none;
+    background-color: aliceblue;
+    }
+
+
+    input::placeholder{
+    font-size:20px;
+}
+
+form input[type="text"]{
+
+ height: 70px;
+    border-radius: 5px;
+    
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px; 
+    display: block;
+    border: none;
+      background-color: aliceblue;
+
+}
+
+textarea{
+    border-radius: 5px;
+    
+    width:497px;
+    padding: 10px 20px;
+    margin-bottom: 24px; 
+    display: block;
+    height: 70px;
+    border: none;
+      background-color: aliceblue;
+
+}
+textarea::placeholder{
+    font-size: 20px;
+
+    padding-top: 10px;
+}
+.touch h1{
+    font-size: 97px;
+    font-weight: bold;
+    
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+#form-button:hover{
+    color: aqua;
+    background-color: brown;
+}
+#form-button{
+    width: 497px;
+    height: 62px;
+    font-size: 24px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;   
+    
+}
  
  
